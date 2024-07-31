@@ -16,7 +16,6 @@ SPOTIFY_CLIENT_SECRET = "YYYY"
 SPOTIFY_BASE_ARTIST_URI = "spotify:artist:"
 REZA_BAHRAM_ID = "3DqvN5TEPxTPkaEN2N0HZ4"
 
-
 user_date = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
 user_date.strip()
 
@@ -93,4 +92,3 @@ get_song_uris()
 pprint.pp(song_uris)
 
 create_billboard_tops_playlist_in_spotify()
-
